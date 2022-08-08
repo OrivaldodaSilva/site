@@ -1,0 +1,41 @@
+h1 {
+    color: chartreuse;
+}
+h2 {
+    color: blueviolet;
+}
+h3 {
+    color: rgb(193, 41, 41);
+}
+* {
+    border: solid;
+}
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: auto;
+   
+}
+.item{
+     position: relative;
+     margin: auto;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.midias{
+    display: flex;
+    position:absolute;
+    list-style:none ;
+}
+.midias img{
+    align-items: center;
+}
